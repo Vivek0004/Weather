@@ -1,5 +1,8 @@
 body {
-	background: #3e5669;
+	background-image: url("images/sun.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .search-box{
