@@ -178,5 +178,19 @@
 	    </table>
 	  </center>
 	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script>
+ $(document).ready(function(){
+  $('search-btn').click(function(){
+   const name = $('#Enter location').val();
+   alert(name);
+   $('.imgchange').attr('src',`https://openweathermap.org/api/${name}`);
+   const b = $('.imgchange');
+   console.log(b);
+
+  });
+ });
+</script>
 </body>
 </html>
